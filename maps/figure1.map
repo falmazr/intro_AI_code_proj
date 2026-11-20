@@ -1,0 +1,11 @@
+; Figure 1 from the CSCI218 Topic 4 brief. 8x8, top row first (y = 7 at the top).
+; M magenta  B blue  Y yellow  P pink  W white  # blocked
+; S = (0,0) in area M, G = (7,7) in area W.
+PPP#WWWW
+PPPWWWWW
+PPP#WWWW
+#P#####W
+MMM#Y#YY
+MMMYYYYY
+MMM##B##
+MMM#BBB#
