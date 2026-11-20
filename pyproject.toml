@@ -1,0 +1,24 @@
+[project]
+name = "mls"
+version = "0.1.0"
+description = "Multi-Layered Search: two-tiered path planning on grid worlds (CSCI218 Topic 4)"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+analysis = ["numpy", "matplotlib", "pillow"]
+
+[project.scripts]
+mls = "mls.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
