@@ -43,7 +43,7 @@ def register(cls: type[Planner]) -> type[Planner]:
 
 def make(name: str, **kwargs) -> Planner:
     """Instantiate a registered planner by name (imports the modules that register them)."""
-    from . import flat, twotier  # noqa: F401  (registration side effects)
+    from . import flat, hpa, twotier  # noqa: F401  (registration side effects)
 
     if name not in PLANNERS:
         raise KeyError(f"unknown planner {name!r}; known: {sorted(PLANNERS)}")
