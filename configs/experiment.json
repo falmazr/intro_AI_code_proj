@@ -1,0 +1,100 @@
+{
+  "seed": 0,
+  "sizes": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "rooms_per_side": {
+    "16": 2,
+    "32": 2,
+    "64": 3,
+    "128": 5,
+    "256": 8,
+    "512": 12
+  },
+  "maps_per_size": 5,
+  "queries_per_map": 30,
+  "timing_repeats": 3,
+  "overrides": {
+    "512": {
+      "timing_repeats": 1
+    }
+  },
+  "min_distance_fraction": 0.5,
+  "include_maps": [
+    "maps/figure1.map",
+    "maps/warehouse.map"
+  ],
+  "named_map_queries": 30,
+  "planners": [
+    {
+      "id": "astar",
+      "name": "astar"
+    },
+    {
+      "id": "bfs",
+      "name": "bfs"
+    },
+    {
+      "id": "dijkstra",
+      "name": "dijkstra"
+    },
+    {
+      "id": "wastar1.5",
+      "name": "wastar",
+      "kwargs": {
+        "epsilon": 1.5
+      }
+    },
+    {
+      "id": "twotier-W0",
+      "name": "twotier",
+      "kwargs": {
+        "weight_model": "W0",
+        "leg_goal": "first"
+      }
+    },
+    {
+      "id": "twotier-W1",
+      "name": "twotier",
+      "kwargs": {
+        "weight_model": "W1",
+        "leg_goal": "first"
+      }
+    },
+    {
+      "id": "twotier-W1-nearest",
+      "name": "twotier",
+      "kwargs": {
+        "weight_model": "W1",
+        "leg_goal": "nearest"
+      }
+    },
+    {
+      "id": "twotier-W1-smooth",
+      "name": "twotier",
+      "kwargs": {
+        "weight_model": "W1",
+        "leg_goal": "first"
+      },
+      "smooth": 2
+    },
+    {
+      "id": "twotier-W2",
+      "name": "twotier-W2"
+    },
+    {
+      "id": "hpa-blocks16",
+      "name": "twotier-W2",
+      "partition": "blocks",
+      "block": 16,
+      "min_size": 64
+    }
+  ],
+  "output": "results/main.csv",
+  "prep_output": "results/prep.csv"
+}

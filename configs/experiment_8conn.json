@@ -1,0 +1,52 @@
+{
+  "seed": 0,
+  "connectivity": 8,
+  "sizes": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "rooms_per_side": {
+    "32": 2,
+    "64": 3,
+    "128": 5,
+    "256": 8
+  },
+  "maps_per_size": 5,
+  "queries_per_map": 30,
+  "timing_repeats": 3,
+  "overrides": {},
+  "min_distance_fraction": 0.5,
+  "include_maps": [
+    "maps/warehouse.map"
+  ],
+  "named_map_queries": 30,
+  "planners": [
+    {
+      "id": "astar",
+      "name": "astar"
+    },
+    {
+      "id": "wastar1.5",
+      "name": "wastar",
+      "kwargs": {
+        "epsilon": 1.5
+      }
+    },
+    {
+      "id": "twotier-W1",
+      "name": "twotier",
+      "kwargs": {
+        "weight_model": "W1",
+        "leg_goal": "first"
+      }
+    },
+    {
+      "id": "twotier-W2",
+      "name": "twotier-W2"
+    }
+  ],
+  "output": "results/octile/main.csv",
+  "prep_output": "results/octile/prep.csv"
+}
