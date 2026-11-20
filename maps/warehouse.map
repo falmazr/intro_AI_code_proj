@@ -1,0 +1,43 @@
+; Logistics warehouse floor, 60x40, 1 cell = 1 m. Built by scripts/make_warehouse.py.
+; R receiving  S/M/N cross-aisles  a-i north aisles  j-r south aisles  B/U bulk floor
+; P packing  D dispatch  H charging bay  O offices  # racks and walls
+####PPPPPPPPPPPPPPPPPPPPPPPPPP#DDDDDDDDDDDDDDDDDDDDD#HHH####
+####PPPPPPPPPPPPPPPPPPPPPPPPPP#DDDDDDDDDDDDDDDDDDDDD#HHH####
+####PPPPPPPPPPPPPPPPPPPPPPPPPPPDDDDDDDDDDDDDDDDDDDDD#HHH####
+####PPPPPPPPPPPPPPPPPPPPPPPPPPPDDDDDDDDDDDDDDDDDDDDDDHHH####
+####PPPPPPPPPPPPPPPPPPPPPPPPPP#DDDDDDDDDDDDDDDDDDDDD#HHH####
+####PPPPPPPPPPPPPPPPPPPPPPPPPP#DDDDDDDDDDDDDDDDDDDDD#HHH####
+####NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN####
+####NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN####
+####NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN####
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UU###UU###UU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UU###UU###UU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UU###UU###UU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UU###UU###UU######
+#O####aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO###aa##bb##cc##dd##ee##ff##gg##hh##ii##UUUUUUUUUUUU######
+OOO#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM####
+OOO#MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM####
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+#O####jj##kk##ll##mm##nn##oo##pp##qq##rr##BB###BB###BB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BB###BB###BB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BB###BB###BB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BB###BB###BB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+OOO###jj##kk##ll##mm##nn##oo##pp##qq##rr##BBBBBBBBBBBB######
+#O##SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS####
+#OOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS####
+#O##SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS####
+####RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR####
+####RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR####
+####RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR####
+####RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR####
